@@ -24,8 +24,8 @@ public Plugin myinfo =
 
 public OnClientPutInServer(client)
 {
-	CreateTimer(2.0, ForceIfGone, client);
-	ClearTrie(PlayerVars[client]);
+	//CreateTimer(2.0, ForceIfGone, client);
+	//ClearTrie(PlayerVars[client]);
 }
 public Action ForceIfGone(Handle:timer,any:client)
 {
